@@ -1,5 +1,6 @@
-package com.example.ratingsservice.models;
+package com.example.ratingsservice.dto;
 
+import com.example.ratingsservice.entity.Rating;
 import java.util.List;
 
 public class UserRating {
