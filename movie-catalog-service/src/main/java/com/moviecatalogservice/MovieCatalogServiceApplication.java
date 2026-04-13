@@ -14,6 +14,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableEurekaClient
 @EnableCircuitBreaker
 @EnableHystrixDashboard
+
 public class MovieCatalogServiceApplication {
 
     private final int TIMEOUT = 3000;   // 3 seconds
